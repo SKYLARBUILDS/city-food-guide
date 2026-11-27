@@ -14,7 +14,7 @@ Requires: requests   (pip install requests)
 """
 import json, sys, time, pathlib, urllib.parse, urllib.request
 
-UA = "skylar-city-food-guide/1.0 (https://github.com/SkylarWJY)"
+UA = "skylar-city-food-guide/1.0 (https://github.com/skylarbuilds)"
 
 def geocode_one(query):
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
